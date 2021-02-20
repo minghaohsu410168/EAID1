@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="airobot" type="airobot.py" name="airobot" output="screen"></node>
+  <node pkg="airobot" type="agv_control.py" name="control"/>
+</launch>
